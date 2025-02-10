@@ -1,7 +1,7 @@
 {
   "name": "radi-color-css",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "packageManager": "pnpm@10.2.1",
   "description": "A simple package that contains all the Radix Colors in a single importable CSS file, tailwind config, and tailwind safelist",
   "author": "Omar McAdam <gh@mcadam.io>",
