@@ -1,22 +1,22 @@
 {
-  "name": "pkg-placeholder",
+  "name": "radi-color-css",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.2.1",
-  "description": "_description_",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "description": "A simple package that contains all the Radix Colors in a single importable CSS file, tailwind config, and tailwind safelist",
+  "author": "Omar McAdam <gh@mcadam.io>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
+  "homepage": "https://github.com/mcpizza0/radi-color-css#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/mcpizza0/radi-color-css.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
+  "bugs": "https://github.com/mcpizza0/radi-color-css/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
-    ".": "./dist/index.mjs"
+    ".": "./dist/index.mjs",
+    "./colors": "./dist/colors.css"
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
