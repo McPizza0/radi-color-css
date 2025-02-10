@@ -6,7 +6,7 @@ export default defineBuildConfig({
     {
       builder: 'mkdist',
       input: './src/css/',
-      outDir: './dist/',
+      outDir: './',
     },
   ],
   declaration: 'node16',
