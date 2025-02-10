@@ -1,7 +1,7 @@
 {
   "name": "radi-color-css",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "packageManager": "pnpm@10.2.1",
   "description": "A simple package that contains all the Radix Colors in a single importable CSS file, tailwind config, and tailwind safelist",
   "author": "Omar McAdam <gh@mcadam.io>",
@@ -16,7 +16,7 @@
   "sideEffects": false,
   "exports": {
     ".": "./dist/index.mjs",
-    "./colors": "./colors.css"
+    "./colors": "./dist/colors.css"
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
