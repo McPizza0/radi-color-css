@@ -41,7 +41,7 @@ modify your `global.css` as follows:
 
 ```css
 // import the CSS file that contains all colors
-@import "radi-color-css/colors";
+@import "radi-color-css/dist/colors.css";
 
 @tailwind base;
 @tailwind components;
